@@ -28,7 +28,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
-        .hero-gradient { background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(112, 16, 32, 0.8)); }
+        .hero-gradient { background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(112, 16, 32, 0.9)); }
+        .mitsibonas-banner {
+            background: linear-gradient(90deg, #701020 0%, #4a0a15 100%);
+            border-top: 3px solid #b89b5e;
+            border-bottom: 3px solid #b89b5e;
+        }
     </style>
 </head>
 <body class="bg-[#fafafa] text-zinc-900">
@@ -38,21 +43,34 @@
             <div class="text-2xl font-black italic tracking-tighter uppercase">AEL Restart</div>
             <div class="hidden md:flex space-x-8 text-[10px] font-bold uppercase tracking-[0.2em]">
                 <a href="#vision" class="hover:text-gold transition">Το Οραμα</a>
-                <a href="#history" class="hover:text-gold transition">Ιστορια</a>
+                <a href="#mitsibonas" class="hover:text-gold transition">Μητσιμπονας</a>
                 <a href="#contact" class="hover:text-gold transition text-gold">Επικοινωνια</a>
             </div>
         </div>
     </nav>
 
-    <header class="relative h-screen flex items-center justify-center overflow-hidden bg-black">
+    <header class="relative h-[80vh] flex items-center justify-center overflow-hidden bg-black">
         <img src="ael-main.jpg" class="absolute inset-0 w-full h-full object-cover opacity-60" alt="AEL Background">
         <div class="absolute inset-0 hero-gradient"></div>
         <div class="relative z-10 text-center px-6">
-            <h2 class="text-6xl md:text-8xl font-black text-white italic tracking-tighter mb-4">Η ΩΡΑ ΤΗΣ<br>ΕΠΙΣΤΡΟΦΗΣ</h2>
+            <h2 class="text-6xl md:text-8xl font-black text-white italic tracking-tighter mb-4 uppercase">Η ΩΡΑ ΤΗΣ<br>ΕΠΙΣΤΡΟΦΗΣ</h2>
             <div class="w-24 h-1 bg-gold mx-auto mb-6"></div>
-            <p class="text-white/80 text-xl md:text-2xl font-light italic max-w-2xl mx-auto">Η ΑΕΛ ανήκει στην κορυφή. Ξεκινάμε την επανεκκίνηση σήμερα.</p>
+            <p class="text-white/90 text-xl md:text-2xl font-light italic max-w-2xl mx-auto tracking-wide">Η ΑΕΛ ανήκει στην κορυφή. Ξεκινάμε την επανεκκίνηση.</p>
         </div>
     </header>
+
+    <section id="mitsibonas" class="mitsibonas-banner py-12 text-white relative overflow-hidden">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center justify-center gap-8">
+            <div class="text-center md:text-left">
+                <h3 class="text-3xl md:text-5xl font-black italic tracking-tighter uppercase mb-2">ΓΙΩΡΓΟΣ ΜΗΤΣΙΜΠΟΝΑΣ</h3>
+                <p class="text-gold font-bold tracking-[0.3em] text-sm uppercase">Για παντα στις καρδιες μας - Αθανατος</p>
+            </div>
+            <div class="h-20 w-[1px] bg-gold/30 hidden md:block"></div>
+            <div class="text-center italic text-lg max-w-sm">
+                "Η ΑΕΛ δεν είναι απλά μια ομάδα, είναι η ίδια η πόλη."
+            </div>
+        </div>
+    </section>
 
     <main class="max-w-4xl mx-auto py-24 px-6">
         
@@ -61,14 +79,6 @@
             <p class="text-xl leading-relaxed text-zinc-600 font-light">
                 Το <span class="font-bold text-vissini">AEL Restart</span> είναι μια πρωτοβουλία για την αναγέννηση της αγαπημένης μας ομάδας. 
                 Στόχος μας είναι η επιστροφή στις αξίες, την οργάνωση και τις επιτυχίες που αρμόζουν στην ιστορία της Λάρισας.
-            </p>
-        </section>
-
-        <section id="history" class="mb-32 bg-white border border-zinc-100 p-12 rounded-[2rem] shadow-2xl shadow-vissini/5">
-            <h3 class="text-4xl font-black text-vissini italic tracking-tight mb-8 text-center uppercase">Ιστορια</h3>
-            <p class="text-zinc-700 leading-loose text-lg first-letter:text-5xl first-letter:font-black first-letter:text-vissini first-letter:mr-3 first-letter:float-left">
-                Η ΑΕΛ δεν είναι απλά μια ομάδα. Είναι η ιστορία μιας ολόκληρης πόλης. 
-                Από το ιστορικό πρωτάθλημα του 1988 μέχρι τις μεγάλες ευρωπαϊκές στιγμές, η Βασίλισσα του Θεσσαλικού κάμπου έχει αποδείξει ότι μπορεί να καταφέρει το ακατόρθωτο.
             </p>
         </section>
 
@@ -83,7 +93,6 @@
                    Αποστολη Email Τωρα
                 </a>
             </div>
-            <p class="text-[10px] uppercase tracking-widest text-zinc-400 font-bold">Κάνοντας κλικ θα ανοίξει αυτόματα η εφαρμογή του email σας</p>
         </section>
 
     </main>
