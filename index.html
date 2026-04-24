@@ -9,10 +9,10 @@
       gtag('config', 'G-LNS6S3K0K7');
     </script>
 
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Σχέδιο Σωτηρίας ΑΕΛ 2026-2030 | Πολυμετοχική Κοινοπραξία</title>
-    
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
@@ -26,6 +26,7 @@
             --gold-dark: #d4af37;
             --cream: #fdf9f0;
         }
+        * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
         body {
             font-family: 'Noto Sans Greek', sans-serif;
             background: #f8f5f0;
@@ -34,6 +35,8 @@
         h1, h2, h3 { font-family: 'Manrope', 'Noto Sans Greek', sans-serif; }
         .burgundy { color: var(--burgundy); }
         .bg-burgundy { background-color: var(--burgundy); }
+        .bg-gold { background-color: var(--gold); }
+        .border-gold { border-color: var(--gold); }
         .card {
             background: white;
             border-radius: 16px;
@@ -47,6 +50,7 @@
             border-radius: 12px;
             display: flex; align-items: center; justify-content: center;
             font-weight: 800; font-size: 20px;
+            box-shadow: 0 4px 12px rgba(122, 15, 33, 0.3);
         }
         .pie {
             background: conic-gradient(
@@ -59,62 +63,64 @@
     </style>
 </head>
 <body class="antialiased">
-
     <header class="bg-burgundy text-white sticky top-0 z-40 shadow-xl">
-        <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
             <div class="flex items-center gap-4">
                 <div class="w-12 h-12 rounded-xl bg-gold flex items-center justify-center shadow-lg">
-                    <span class="text-2xl font-black burgundy">ΑΕΛ</span>
+                    <span class="text-2xl font-black burgundy" style="font-family: Manrope;">ΑΕΛ</span>
                 </div>
                 <div>
                     <div class="text-[11px] uppercase tracking-[0.2em] text-amber-200/80 font-semibold">Επίσημη Παρουσίαση</div>
                     <div class="font-bold text-lg leading-tight">Σχέδιο Σωτηρίας 2026-2030</div>
                 </div>
             </div>
+            <a href="mailto:aelrestart@gmail.com" class="text-xs font-bold bg-white/10 px-3 py-2 rounded-lg border border-white/20 hover:bg-white/20 transition">
+                ΕΠΙΚΟΙΝΩΝΙΑ
+            </a>
         </div>
     </header>
 
     <div class="bg-burgundy text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 1px 1px, white 1px, transparent 0); background-size: 24px 24px;"></div>
         <div class="max-w-6xl mx-auto px-6 py-12 sm:py-16 relative">
             <div class="max-w-4xl">
                 <div class="inline-flex items-center gap-2 bg-gold text-[#5a0a18] px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4">
                     Πολυμετοχική Κοινοπραξία
                 </div>
                 <h1 class="text-3xl sm:text-5xl font-black leading-tight mb-4">
-                    Σχέδιο Σωτηρίας <span class="text-amber-300">ΑΕΛ</span><br>2026-2030
-                </h1>
+                    Σχέδιο Σωτηρίας <span class="text-amber-300">ΑΕΛ</span><br>2026-2030                </h1>
                 <p class="text-lg sm:text-xl text-white/85 leading-relaxed">Ένα ρεαλιστικό, βιώσιμο και διαφανές μοντέλο διακυβέρνησης. Η ΑΕΛ ανήκει στην πόλη της. Τέλος στην εποχή του ενός.</p>
             </div>
         </div>
         <div class="h-2 w-full bg-gradient-to-r from-[#ffd700] via-amber-400 to-[#ffd700]"></div>
     </div>
 
-    <main class="max-w-6xl mx-auto px-4 py-12 space-y-8">
-        
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12 space-y-8">
         <div class="grid lg:grid-cols-2 gap-6">
-            <section class="card p-8">
+            <section class="card p-6 sm:p-8">
                 <div class="flex items-start gap-4">
                     <div class="num">1</div>
                     <div class="flex-1">
                         <h2 class="text-2xl font-bold burgundy mb-3">Το Πρόβλημα</h2>
-                        <ul class="space-y-2 text-sm leading-relaxed">
-                            <li><strong>▸ Οικονομική αστάθεια</strong> και έλλειψη πλάνου</li>
-                            <li><strong>▸ Εξάρτηση από ένα πρόσωπο</strong></li>
-                            <li><strong>▸ Αποξένωση φιλάθλων</strong></li>
-                            <li><strong>▸ Αδρανές γήπεδο</strong></li>
+                        <ul class="space-y-2.5 text-[15px] leading-relaxed text-stone-700">
+                            <li>▸ <strong>Οικονομική αστάθεια</strong> και έλλειψη πλάνου</li>
+                            <li>▸ <strong>Εξάρτηση από ένα πρόσωπο</strong></li>
+                            <li>▸ <strong>Αποξένωση φιλάθλων</strong></li>
+                            <li>▸ <strong>Αδρανές γήπεδο</strong> 300+ μέρες</li>
+                            <li>▸ <strong>Απουσία θεσμικής σύνδεσης</strong> με την πόλη</li>
                         </ul>
                     </div>
                 </div>
             </section>
-            <section class="card p-8 bg-gradient-to-br from-[#7a0f21] to-[#5a0a18] text-white">
+            <section class="card p-6 sm:p-8 bg-gradient-to-br from-[#7a0f21] to-[#5a0a18] text-white">
                 <div class="flex items-start gap-4">
                     <div class="num !bg-[#ffd700] !text-[#7a0f21]">2</div>
                     <div class="flex-1">
                         <h2 class="text-2xl font-bold text-amber-300 mb-3">Το Όραμα</h2>
-                        <ul class="space-y-2 text-sm">
-                            <li>✓ Βιώσιμη ΠΑΕ με ευρωπαϊκές αρχές</li>
+                        <ul class="space-y-2.5 text-[15px] leading-relaxed text-white/90">
+                            <li>✓ <strong class="text-white">Βιώσιμη ΠΑΕ</strong> με ευρωπαϊκές αρχές</li>
                             <li>✓ Επιστροφή στη Super League 1</li>
-                            <li>✓ AEL FC Arena: Πολυχώρος 365 ημερών</li>
+                            <li>✓ <strong class="text-white">AEL FC Arena: Πολυχώρος 365 ημερών</strong></li>
                             <li>✓ Πλήρης διαφάνεια</li>
                         </ul>
                     </div>
@@ -122,53 +128,125 @@
             </section>
         </div>
 
-        <section class="card p-8">
+        <section class="card p-6 sm:p-8">
             <div class="flex items-start gap-4">
-                <div class="num">4</div>
+                <div class="num">3</div>
                 <div class="flex-1">
-                    <h2 class="text-2xl font-bold burgundy mb-6">Μετοχική Σύνθεση</h2>
-                    <div class="grid md:grid-cols-2 gap-8 items-center">
-                        <div class="flex justify-center">
-                            <div class="relative">
-                                <div class="w-52 h-52 rounded-full pie shadow-xl ring-8 ring-white"></div>
-                                <div class="absolute inset-8 bg-white rounded-full flex items-center justify-center">
-                                    <div class="text-center">
-                                        <div class="text-3xl font-black burgundy">100%</div>
-                                        <div class="text-[10px] uppercase font-bold text-stone-500">ΛΑΡΙΣΑ</div>
-                                    </div>
-                                </div>
-                            </div>
+                    <h2 class="text-2xl font-bold burgundy mb-4">Νομική Μορφή</h2>
+                    <div class="grid md:grid-cols-3 gap-4">
+                        <div class="bg-[#fdf9f0] border border-amber-200 rounded-xl p-5">
+                            <div class="text-xs uppercase tracking-wider text-[#7a0f21]/70 font-semibold mb-1">Νέα Εταιρεία</div>
+                            <div class="text-xl font-bold burgundy">ΑΕΛ 2026 ΠΑΕ</div>
                         </div>
-                        <div class="space-y-3">
-                            <div class="p-3 bg-stone-50 rounded-lg border-l-4 border-[#7a0f21]"><strong>51%</strong> Επιχειρήσεις Θεσσαλίας</div>
-                            <div class="p-3 bg-stone-50 rounded-lg border-l-4 border-[#ffd700]"><strong>20%</strong> Supporters Trust</div>
-                            <div class="p-3 bg-stone-50 rounded-lg border-l-4 border-[#5a0a18]"><strong>10%</strong> Δήμος Λαρισαίων</div>
-                            <div class="p-3 bg-stone-50 rounded-lg border-l-4 border-[#d4af37]"><strong>19%</strong> Μικρομέτοχοι</div>
+                        <div class="bg-[#fdf9f0] border border-amber-200 rounded-xl p-5">
+                            <div class="text-xs uppercase tracking-wider text-[#7a0f21]/70 font-semibold mb-1">Μετοχικό Κεφάλαιο</div>
+                            <div class="text-xl font-bold burgundy">€1.500.000</div>
+                        </div>
+                        <div class="bg-[#fdf9f0] border border-amber-200 rounded-xl p-5">
+                            <div class="text-xs uppercase tracking-wider text-[#7a0f21]/70 font-semibold mb-1">Εγγύηση</div>
+                            <div class="text-xl font-bold burgundy">Escrow Account</div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="card p-8 text-center border-2 border-burgundy">
-            <h2 class="text-3xl font-black burgundy mb-4 uppercase italic">Επικοινωνια</h2>
-            <p class="text-stone-600 mb-6">Θέλετε να μάθετε περισσότερα ή να συμμετάσχετε στο Σχέδιο Σωτηρίας;</p>
-            <div class="flex flex-col items-center gap-4">
-                <a href="mailto:aelrestart@gmail.com" class="bg-burgundy text-white px-10 py-4 rounded-xl font-bold text-lg hover:bg-[#5a0a18] transition shadow-lg">
-                    aelrestart@gmail.com
-                </a>
-                <span class="text-xs text-stone-400 uppercase tracking-widest font-bold">Απαντάμε εντός 24 ωρών</span>
+        <section class="card p-6 sm:p-8">
+            <div class="flex items-start gap-4">
+                <div class="num">4</div>
+                <div class="flex-1">
+                    <h2 class="text-2xl font-bold burgundy mb-6">Μετοχική Σύνθεση</h2>
+                    <div class="grid md:grid-cols-5 gap-8 items-center">
+                        <div class="md:col-span-2 flex justify-center">
+                            <div class="relative">
+                                <div class="w-52 h-52 rounded-full pie shadow-xl ring-8 ring-white"></div>
+                                <div class="absolute inset-8 bg-white rounded-full flex items-center justify-center">
+                                    <div class="text-center">
+                                        <div class="text-3xl font-black burgundy">100%</div>
+                                        <div class="text-[11px] font-bold text-stone-500 uppercase">Λάρισα</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="md:col-span-3 space-y-3">
+                            <div class="flex items-center justify-between p-4 rounded-xl border-l-4 border-[#7a0f21] bg-stone-50">
+                                <strong>51% – Επιχειρήσεις Θεσσαλίας</strong>
+                            </div>
+                            <div class="flex items-center justify-between p-4 rounded-xl border-l-4 border-[#ffd700] bg-stone-50">
+                                <strong>20% – Supporters Trust</strong>
+                            </div>
+                            <div class="flex items-center justify-between p-4 rounded-xl border-l-4 border-[#5a0a18] bg-stone-50">
+                                <strong>10% – Δήμος Λαρισαίων</strong>
+                            </div>
+                            <div class="flex items-center justify-between p-4 rounded-xl border-l-4 border-[#d4af37] bg-stone-50">
+                                <strong>19% – Μικρομέτοχοι</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
+
+        <section class="card p-6 sm:p-8">
+            <div class="flex items-start gap-4">
+                <div class="num">7</div>
+                <div class="flex-1">
+                    <h2 class="text-2xl font-bold burgundy mb-4">AEL FC Arena – Πολυχώρος 365 Ημερών</h2>
+                    <div class="bg-gradient-to-r from-[#7a0f21] to-[#5a0a18] text-white rounded-2xl p-6 mb-6">
+                        <h3 class="text-xl font-bold text-amber-300 mb-3">Mini-Ημερολόγιο Χρήσεων</h3>
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-2 text-xs">
+                            <div class="bg-white/10 p-2 rounded">Σεπ: Έναρξη</div>
+                            <div class="bg-white/10 p-2 rounded">Οκτ: Θεσσαλική Γη</div>
+                            <div class="bg-white/10 p-2 rounded">Νοε: Συναυλία</div>
+                            <div class="bg-white/10 p-2 rounded">Δεκ: Bazaar</div>
+                            <div class="bg-white/10 p-2 rounded">Ιαν: Συνέδριο</div>
+                            <div class="bg-white/10 p-2 rounded">Φεβ: Καρναβάλι</div>
+                            <div class="bg-white/10 p-2 rounded">Ιουν: Festival</div>
+                            <div class="bg-white/10 p-2 rounded">Ιουλ: Σινεμά</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card p-6 sm:p-8">
+            <div class="flex items-start gap-4">
+                <div class="num">8</div>
+                <div class="flex-1">
+                    <h2 class="text-2xl font-bold burgundy mb-6">Οικονομικό Πλάνο</h2>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div class="space-y-2">
+                            <h3 class="font-bold border-b border-stone-200 pb-2">Έσοδα ~€2.4εκ</h3>
+                            <p class="text-sm">Χορηγίες: €700κ</p>
+                            <p class="text-sm">Εισιτήρια: €500κ</p>
+                            <p class="text-sm text-burgundy font-bold">Arena Events: €500κ</p>
+                        </div>
+                        <div class="space-y-2">
+                            <h3 class="font-bold border-b border-stone-200 pb-2">Έξοδα ~€2.3εκ</h3>
+                            <p class="text-sm">Ρόστερ: €1.2εκ</p>
+                            <p class="text-sm">Λειτουργικά: €500κ</p>
+                            <p class="text-sm">Ακαδημίες: €150κ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="card p-8 bg-[#fdf9f0] border-2 border-dashed border-gold text-center">
+            <h2 class="text-2xl font-black burgundy mb-4">ΕΠΙΚΟΙΝΩΝΗΣΤΕ ΜΑΖΙ ΜΑΣ</h2>
+            <p class="text-stone-700 mb-6 font-medium">Για προτάσεις, συμμετοχή ή πληροφορίες σχετικά με το Σχέδιο Σωτηρίας.</p>
+            <a href="mailto:aelrestart@gmail.com" class="inline-block bg-burgundy text-white px-8 py-4 rounded-xl font-bold shadow-lg hover:scale-105 transition transform">
+                aelrestart@gmail.com
+            </a>
         </section>
 
     </main>
 
-    <footer class="border-t border-stone-200 py-12 text-center text-xs text-stone-500 bg-white">
+    <footer class="border-t border-stone-200 py-8 text-center text-xs text-stone-500">
         <div class="max-w-6xl mx-auto px-6">
-            <p class="font-bold mb-2">ΑΕΛ 2026-2030 | Σχέδιο Σωτηρίας</p>
-            <p>Πολυμετοχική Κοινοπραξία Θεσσαλικών Επιχειρήσεων – Δήμου Λαρισαίων – Φιλάθλων</p>
+            <p>Παρουσίαση Σχεδίου Σωτηρίας ΑΕΛ 2026-2030 | Πολυμετοχική Κοινοπραξία</p>
+            <p class="mt-2 font-bold burgundy">AEL RESTART • 2026</p>
         </div>
     </footer>
-
 </body>
 </html>
