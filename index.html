@@ -11,82 +11,67 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AEL Restart - Η Επιστροφή της Βασίλισσας</title>
+    <title>AEL Restart - Επίσημη Σελίδα</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Roboto', sans-serif; }
-        .bg-ael { background-color: #701020; } /* Το βυσσινί της ΑΕΛ */
+        .bg-ael { background-color: #701020; }
         .text-ael { color: #701020; }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-900">
+<body class="bg-gray-100">
 
-    <nav class="bg-ael text-white p-4 shadow-lg sticky top-0 z-50">
+    <nav class="bg-ael text-white p-4 shadow-md">
         <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-2xl font-black italic tracking-tighter">AEL RESTART</h1>
-            <div class="hidden md:flex space-x-6 font-bold uppercase text-sm">
-                <a href="#vision" class="hover:text-gray-300">Το Όραμα</a>
-                <a href="#history" class="hover:text-gray-300">Ιστορία</a>
-                <a href="#contact" class="hover:text-gray-300">Επικοινωνία</a>
+            <h1 class="text-2xl font-black italic">AEL RESTART</h1>
+            <div class="space-x-4 font-bold uppercase text-xs">
+                <a href="#vision" class="hover:underline">Το Όραμα</a>
+                <a href="#history" class="hover:underline">Ιστορία</a>
+                <a href="#contact" class="hover:underline">Επικοινωνία</a>
             </div>
         </div>
     </nav>
 
-    <header class="relative h-96 bg-gray-900 flex items-center justify-center text-center text-white">
-        <div class="absolute inset-0 overflow-hidden opacity-40">
-             <img src="ael-main.jpg" alt="" class="w-full h-full object-cover">
-        </div>
-        <div class="relative z-10 px-4">
-            <h2 class="text-5xl md:text-7xl font-black italic mb-4">Η ΩΡΑ ΤΗΣ ΕΠΙΣΤΡΟΦΗΣ</h2>
-            <p class="text-xl md:text-2xl font-light max-w-2xl mx-auto italic">Επανεκκίνηση. Οργάνωση. Δικαίωση. Η ΑΕΛ ανήκει στην κορυφή.</p>
+    <header class="relative h-80 bg-gray-800 flex items-center justify-center text-white text-center">
+        <img src="ael-main.jpg" alt="" class="absolute inset-0 w-full h-full object-cover opacity-50">
+        <div class="relative z-10">
+            <h2 class="text-4xl md:text-6xl font-black italic">Η ΩΡΑ ΤΗΣ ΕΠΙΣΤΡΟΦΗΣ</h2>
+            <p class="mt-2 text-lg italic">Η ΑΕΛ ανήκει στην κορυφή</p>
         </div>
     </header>
 
-    <section id="vision" class="py-20 container mx-auto px-4">
-        <div class="max-w-3xl mx-auto text-center">
-            <h3 class="text-3xl font-bold mb-8 text-ael uppercase">Το Όραμα</h3>
-            <p class="text-lg leading-relaxed mb-6">
-                Το <strong>AEL Restart</strong> είναι μια πρωτοβουλία που γεννήθηκε από την ανάγκη για μια νέα, υγιή και δυνατή ΑΕΛ. Στόχος μας είναι η συσπείρωση όλων των δυνάμεων της ομάδας για την επιστροφή εκεί που επιτάσσει η ιστορία της.
+    <main class="container mx-auto py-10 px-4">
+        
+        <section id="vision" class="mb-16 text-center">
+            <h3 class="text-3xl font-bold text-ael mb-6 uppercase">Το Όραμα</h3>
+            <p class="text-lg max-w-2xl mx-auto leading-relaxed">
+                Το AEL Restart είναι μια πρωτοβουλία για την αναγέννηση της αγαπημένης μας ομάδας. 
+                Στόχος μας είναι η επιστροφή στις αξίες, την οργάνωση και τις επιτυχίες που αρμόζουν στην ιστορία της Λάρισας.
             </p>
-            <div class="grid md:grid-cols-3 gap-8 mt-12">
-                <div class="p-6 bg-white shadow-md rounded-lg">
-                    <div class="text-ael text-4xl mb-4 font-black">01</div>
-                    <h4 class="font-bold mb-2">Οργάνωση</h4>
-                    <p class="text-sm text-gray-600">Σύγχρονα πρότυπα διοίκησης και διαφάνεια.</p>
-                </div>
-                <div class="p-6 bg-white shadow-md rounded-lg">
-                    <div class="text-ael text-4xl mb-4 font-black">02</div>
-                    <h4 class="font-bold mb-2">Υποδομές</h4>
-                    <p class="text-sm text-gray-600">Επένδυση στα τμήματα υποδομής και το μέλλον.</p>
-                </div>
-                <div class="p-6 bg-white shadow-md rounded-lg">
-                    <div class="text-ael text-4xl mb-4 font-black">03</div>
-                    <h4 class="font-bold mb-2">Κόσμος</h4>
-                    <p class="text-sm text-gray-600">Η δύναμη της ΑΕΛ είναι οι οπαδοί της.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact" class="bg-ael py-16 text-white text-center">
-        <div class="container mx-auto px-4">
-            <h3 class="text-3xl font-bold mb-6 italic uppercase">Γίνε μέρος της προσπάθειας</h3>
-            <p class="mb-8 text-lg">Στείλε μας τις προτάσεις σου και τις ιδέες σου για την επόμενη μέρα.</p>
-            <a href="mailto:aelrestart@gmail.com" class="inline-block bg-white text-ael px-10 py-4 rounded-full font-black uppercase hover:bg-gray-200 transition transform hover:scale-105">
-                ΣΤΕΙΛΕ EMAIL ΤΩΡΑ
+        <section id="history" class="mb-16 bg-white p-8 rounded-xl shadow-sm">
+            <h3 class="text-3xl font-bold text-ael mb-6 text-center uppercase">Ιστορία</h3>
+            <p class="text-gray-700 leading-loose">
+                Η ΑΕΛ δεν είναι απλά μια ομάδα. Είναι η ιστορία μιας ολόκληρης πόλης. 
+                Από το πρωτάθλημα του 1988 μέχρι τις μεγάλες ευρωπαϊκές στιγμές, η Βασίλισσα του Θεσσαλικού κάμπου έχει αποδείξει ότι μπορεί να καταφέρει το ακατόρθωτο.
+            </p>
+        </section>
+
+        <section id="contact" class="text-center py-10">
+            <h3 class="text-3xl font-bold text-ael mb-6 uppercase">Επικοινωνία</h3>
+            <p class="mb-8">Θέλεις να συμμετέχεις στην προσπάθεια; Στείλε μας ένα μήνυμα.</p>
+            <a href="mailto:aelrestart@gmail.com" class="bg-ael text-white px-8 py-3 rounded-full font-bold hover:bg-red-800 transition shadow-lg">
+                ΣΤΕΙΛΕ EMAIL
             </a>
-            <p class="mt-6 text-sm opacity-75">
-                Email: <span class="font-bold">aelrestart@gmail.com</span>
-            </p>
-        </div>
-    </section>
+            <p class="mt-4 text-gray-600">Email: aelrestart@gmail.com</p>
+        </section>
 
-    <footer class="py-8 bg-gray-100 text-center text-gray-500 text-sm">
-        <div class="container mx-auto">
-            <p>&copy; 2024 AEL Restart. Με σεβασμό στην ιστορία της Λάρισας.</p>
-            <p class="mt-2 tracking-widest uppercase text-[10px]">Larissa - Greece</p>
-        </div>
+    </main>
+
+    <footer class="bg-gray-200 py-6 text-center text-gray-500 text-sm">
+        <p>&copy; 2024 AEL Restart. Με σεβασμό στην ιστορία της ΑΕΛ.</p>
     </footer>
 
 </body>
